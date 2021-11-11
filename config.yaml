@@ -1,0 +1,50 @@
+title: 'Stats4Life'
+baseURL: 'https://www.stats4life.com'
+copyright:   Copyright &copy; 2021-{year},  Xingzhong (Jason) Jin. All rights reserved. 
+googleAnalytics: ''
+disqusShortname: ''
+theme: academia-hugo
+enableGitInfo: no
+defaultContentLanguage: en
+hasCJKLanguage: no
+defaultContentLanguageInSubdir: no
+removePathAccents: yes
+paginate: 10
+enableEmoji: yes
+footnotereturnlinkcontents: <sup>^</sup>
+ignoreFiles:
+  - \.ipynb$
+  - .ipynb_checkpoints$
+  - \.Rmd$
+  - \.Rmarkdown$
+  - _files$
+  - _cache$
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+    # - WebAppManifest
+  section:
+    - HTML
+    - RSS
+# outputFormats.WebAppManifest:
+#   mediaType: application/manifest+json
+#   rel: manifest
+blackfriday:
+  angledQuotes: no
+  extensions: backslashLineBreak
+  hrefTargetBlank: yes
+  latexDashes: yes
+goldmark:  
+  renderer:
+    unsafe: true
+imaging:
+  anchor: smart
+  quality: 90
+  resampleFilter: lanczos
+taxonomies:
+  author: authors
+  category: categories
+  publication_type: publication_types
+  tag: tags

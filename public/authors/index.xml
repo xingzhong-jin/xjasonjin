@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Authors on Odds of Life</title>
+    <link>https://examplesite.org/authors/</link>
+    <description>Recent content in Authors on Odds of Life</description>
+    <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <copyright>Copyright &amp;copy; {year}</copyright>
+    <lastBuildDate>Sun, 07 Apr 2019 00:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="https://examplesite.org/authors/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://examplesite.org/authors/admin/</link>
+      <pubDate>Sun, 07 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://examplesite.org/authors/admin/</guid>
+      <description>&lt;p&gt;Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../../img/certifacates.jpg&#34; alt=&#34;reviews&#34;&gt;&lt;/p&gt;
+&lt;p&gt;It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum. The point of using Lorem Ipsum. distracted by the readable content of a page.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Robert Ford</title>
+      <link>https://examplesite.org/authors/robert-ford/</link>
+      <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://examplesite.org/authors/robert-ford/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://examplesite.org/authors/jason-jin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://examplesite.org/authors/jason-jin/</guid>
+      <description>&lt;h2 id=&#34;my-name-is-xingzhong-jason-jin-and-im-a-data-scientist-specializing-in-clinical-trials&#34;&gt;My name is &lt;strong&gt;Xingzhong (Jason) Jin&lt;/strong&gt; and I&amp;rsquo;m a &lt;strong&gt;Data Scientist&lt;/strong&gt; specializing in &lt;strong&gt;Clinical Trials&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;I am a former clinician turned epidemiologist and health data scientist. I completed my medical degree in 2006, and finished a PhD in clinical epidemiology in 2016. During PhD, I developed a passion for statistics and clinical trials. Post-PhD, I worked at three research centers overseeing a number of clinical trials. It was when I got particularly interested in applying data science to clinical trials. Now, I am a Research Fellow at the Centre for Big Data Research in Health, University of New South Wales.&lt;/p&gt;
+&lt;p&gt;My academic research interests include early prevention of osteoarthritis and optimize patient selection for joint replacement. These days I spend a lot of my time coding in R and conducting innovative research studies with real-world health data. When I am not coding, I like bush-walking, playing basketball and reading books (self-development and investment).&lt;/p&gt;
+&lt;p&gt;I live in Sydney, Australia, with my wife, my beautiful kid, a Chihuahua and a Russian Blue cat.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,49 @@
+<footer class="site-footer">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="mb-4 mb-md-0">
+        {{ with site.GetPage "privacy.md" }}
+        <p class="powered-by">
+          {{ printf "<a href=\"%s\">%s</a>" .RelPermalink .Title | safeHTML }}
+        </p>
+        {{ end }}
+        <p class="mb-0">
+          
+          <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" /></a>
+          This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>. <br/>
+          
+          {{ with site.Copyright }}{{ replace . "{year}" now.Year | markdownify}}. {{ end }}
+          
+          
+        </p>
+        
+      </div>
+      
+<!--      
+      <div class="col-md-6">
+        <ul class="list-inline network-icon text-right mb-0">
+          {{/* Contact links. */}}
+          {{ range site.Params.contact_links }}
+          {{ $pack := or .icon_pack "fas" }}
+          {{ $pack_prefix := $pack }}
+          {{ if in (slice "fab" "fas" "far" "fal") $pack }}
+          {{ $pack_prefix = "fa" }}
+          {{ end }} 
+          {{ $link := .link }}
+          {{ $scheme := (urls.Parse $link).Scheme }}
+          {{ $target := "" }}
+          {{ if not $scheme }}
+          {{ $link = .link | relLangURL }}
+          {{ else if in (slice "http" "https") $scheme }}
+          {{ $target = "target=\"_blank\" rel=\"noopener\"" }}
+          {{ end }}
+          <li class="list-inline-item">
+            <a href="{{ $link | safeURL }}" {{ $target | safeHTMLAttr }} title="{{.name}}"><i class="{{ $pack }} {{ $pack_prefix }}-{{ .icon }}" aria-hidden="true"></i></a>
+          </li>
+          {{ end }}
+        </ul>
+      </div>
+-->
+    </div>
+  </div>
+</footer>

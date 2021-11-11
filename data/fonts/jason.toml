@@ -1,0 +1,15 @@
+# Font style metadata
+name = "Jason"
+
+# Optional Google font URL
+google_fonts = "Noto+Sans+Display:400,700|Lora:400,700|Roboto:400,700"
+
+# Font families
+heading_font = "Noto Sans Display 700"
+body_font = "Noto Sans Display 400"
+nav_font = "Noto Sans Display 400"
+mono_font = "Noto Sans Display 400"
+
+# Font size
+font_size = "20"
+font_size_small = "16"
