@@ -13,7 +13,7 @@ day_night = false
 # Font style.
 #   Choose from `default`, `classic`, `rose` or `jason`.
 font = "jason"
-
+font_size = "S"
 
 # Description for social sharing and search engines. If undefined, superuser role is used in place.
 description = ""
@@ -56,10 +56,10 @@ time_format = "3:04 PM"
 # Enter contact details (optional). To hide a field, clear it to "".
 email = "xingzhong.jin@gmail.com"
 # phone = "888 888 88 88"
-# address = "Building 1 Room 1, Stanford University, California, 90210, USA"
+ address = "Sydney, Australia"
 
 # Office hours: use `<br>` to insert a line break, or set to "" to remove office hours
-office_hours = """Monday to  Wednesday 09:00 to 17:00 (AEST)"""
+office_hours = """Monday to  Friday 09:00 to 17:00 (AEST)"""
 
 # Enter an optional link for booking appointments (e.g. calendly.com).
 appointment_url = "https://calendly.com/xingzhong-jason-jin/30minutes"
@@ -93,9 +93,10 @@ contact_links = [
 #   3: OpenStreetMap (Mapbox)
 map = 0
 map_api_key = "AIzaSyBu5nZKbeK-WHQ70oqOWo-_4VmwOwKP9YQ"
-latitude = "37.4275"
-longitude = "-122.1697"
-zoom = 15
+latitude = "-33.918225848978146"
+longitude = " 151.23572289991537"
+zoom = 10
+
 
 ############################
 ## Plugins                ##
