@@ -24,8 +24,9 @@ date_format = "Jan 2006"
   location = "Sydney, Australia"
   date_start = "2021-04-26"
   date_end = ""
-  description = """Spira Health is medical device start-up with a mission to provide evidence-based and ease-to-use consumer-facing solutions for sleep disorders
-  Responsibilities include:
+  description = """Spira Health is medical device start-up with a mission to provide evidence-based and ease-to-use consumer-facing solutions for sleep disorders.
+  
+  My responsibilities as the Research Lead include:
   
   * Lead clinical evidence research and market research.
   * Conduct medical literature research, develop research surveys, and perform statistical analyses.
