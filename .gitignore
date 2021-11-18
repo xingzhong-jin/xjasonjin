@@ -37,3 +37,11 @@ vignettes/*.pdf
 
 # R Environment Variables
 .Renviron
+
+# Local files
+.DS_Store
+Thumbs.db
+
+# Netlify files
+/public/
+/resources/

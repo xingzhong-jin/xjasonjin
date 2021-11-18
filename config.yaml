@@ -13,11 +13,12 @@ paginate: 10
 enableEmoji: yes
 footnotereturnlinkcontents: <sup>^</sup>
 ignoreFiles:
+  - "\\.knit\\.md$"
+  - "\\.utf8\\.md$"
   - \.ipynb$
   - .ipynb_checkpoints$
   - \.Rmd$
   - \.Rmarkdown$
-  - _files$
   - _cache$
 outputs:
   home:
@@ -48,3 +49,8 @@ taxonomies:
   category: categories
   publication_type: publication_types
   tag: tags
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
